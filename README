@@ -1,0 +1,16 @@
+DeepNote Guitar Hero Bot
+The project was Developed by Jeremy E. Blum, Zach Lynn, Alex Miller, Brandon Fisher, and Ben Schaffer
+More info is available at http://mechanizedrock.com & http://jeremyblum.com/category/guitar_hero_bot/
+
+This is Open Source Hardware and Software Licensed via a Creative Commons Attribution Share-Alike License
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+Block Diagram:  This outlines the architecture of the system, and explains how the various "cogs" on the propeller were leveraged to permit for parallel processing operations
+
+PCBs: .pcb files for use with PCB Artist, and the corresponding PDF Files
+
+schematics: Spice Schematic files of the controller circuit and photodiode circuits
+
+Parts List.pdf:  A listing of all the parts used
+
+GUITAR_APPLICATION - v8.spin:  The most comprehensive iteration of our software for controlling the machine.  It is written in SPIN (the propeller interpretted language) with some limited functions written in assembly.  It is VERY heavily commented, to make it easy to follow.
